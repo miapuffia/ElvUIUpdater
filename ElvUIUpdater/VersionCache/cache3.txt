@@ -1,0 +1,132 @@
+[
+  {
+    "name": "v1.57-classic",
+    "zipball_url": "https://api.github.com/repos/tukui-org/ElvUI/zipball/refs/tags/v1.57-classic",
+    "tarball_url": "https://api.github.com/repos/tukui-org/ElvUI/tarball/refs/tags/v1.57-classic",
+    "commit": {
+      "sha": "d60ac992f1dca5c8be024561e0f4c619fff38e60",
+      "url": "https://api.github.com/repos/tukui-org/ElvUI/commits/d60ac992f1dca5c8be024561e0f4c619fff38e60"
+    },
+    "node_id": "MDM6UmVmNDA0ODIzNTAzOnJlZnMvdGFncy92MS41Ny1jbGFzc2lj"
+  },
+  {
+    "name": "v1.56-classic",
+    "zipball_url": "https://api.github.com/repos/tukui-org/ElvUI/zipball/refs/tags/v1.56-classic",
+    "tarball_url": "https://api.github.com/repos/tukui-org/ElvUI/tarball/refs/tags/v1.56-classic",
+    "commit": {
+      "sha": "309e23035535c53c235e40a5f8dd203265ffc7ff",
+      "url": "https://api.github.com/repos/tukui-org/ElvUI/commits/309e23035535c53c235e40a5f8dd203265ffc7ff"
+    },
+    "node_id": "MDM6UmVmNDA0ODIzNTAzOnJlZnMvdGFncy92MS41Ni1jbGFzc2lj"
+  },
+  {
+    "name": "v1.55-classic",
+    "zipball_url": "https://api.github.com/repos/tukui-org/ElvUI/zipball/refs/tags/v1.55-classic",
+    "tarball_url": "https://api.github.com/repos/tukui-org/ElvUI/tarball/refs/tags/v1.55-classic",
+    "commit": {
+      "sha": "a431442b78b5e20cafb1cc6f077ac4fd659bda06",
+      "url": "https://api.github.com/repos/tukui-org/ElvUI/commits/a431442b78b5e20cafb1cc6f077ac4fd659bda06"
+    },
+    "node_id": "MDM6UmVmNDA0ODIzNTAzOnJlZnMvdGFncy92MS41NS1jbGFzc2lj"
+  },
+  {
+    "name": "v1.54-classic",
+    "zipball_url": "https://api.github.com/repos/tukui-org/ElvUI/zipball/refs/tags/v1.54-classic",
+    "tarball_url": "https://api.github.com/repos/tukui-org/ElvUI/tarball/refs/tags/v1.54-classic",
+    "commit": {
+      "sha": "994690070461dc13c54190d592e7cbaba9345df6",
+      "url": "https://api.github.com/repos/tukui-org/ElvUI/commits/994690070461dc13c54190d592e7cbaba9345df6"
+    },
+    "node_id": "MDM6UmVmNDA0ODIzNTAzOnJlZnMvdGFncy92MS41NC1jbGFzc2lj"
+  },
+  {
+    "name": "v1.53-classic",
+    "zipball_url": "https://api.github.com/repos/tukui-org/ElvUI/zipball/refs/tags/v1.53-classic",
+    "tarball_url": "https://api.github.com/repos/tukui-org/ElvUI/tarball/refs/tags/v1.53-classic",
+    "commit": {
+      "sha": "fe66a0deb76b4d0582031b167a43885725ea705b",
+      "url": "https://api.github.com/repos/tukui-org/ElvUI/commits/fe66a0deb76b4d0582031b167a43885725ea705b"
+    },
+    "node_id": "MDM6UmVmNDA0ODIzNTAzOnJlZnMvdGFncy92MS41My1jbGFzc2lj"
+  },
+  {
+    "name": "v1.52-classic",
+    "zipball_url": "https://api.github.com/repos/tukui-org/ElvUI/zipball/refs/tags/v1.52-classic",
+    "tarball_url": "https://api.github.com/repos/tukui-org/ElvUI/tarball/refs/tags/v1.52-classic",
+    "commit": {
+      "sha": "c77d9ca49417732671e679ab0d5e17362f605876",
+      "url": "https://api.github.com/repos/tukui-org/ElvUI/commits/c77d9ca49417732671e679ab0d5e17362f605876"
+    },
+    "node_id": "MDM6UmVmNDA0ODIzNTAzOnJlZnMvdGFncy92MS41Mi1jbGFzc2lj"
+  },
+  {
+    "name": "v1.51-classic",
+    "zipball_url": "https://api.github.com/repos/tukui-org/ElvUI/zipball/refs/tags/v1.51-classic",
+    "tarball_url": "https://api.github.com/repos/tukui-org/ElvUI/tarball/refs/tags/v1.51-classic",
+    "commit": {
+      "sha": "79cc382ad9c04109e1446a2478b52290e5079b18",
+      "url": "https://api.github.com/repos/tukui-org/ElvUI/commits/79cc382ad9c04109e1446a2478b52290e5079b18"
+    },
+    "node_id": "MDM6UmVmNDA0ODIzNTAzOnJlZnMvdGFncy92MS41MS1jbGFzc2lj"
+  },
+  {
+    "name": "v1.50-classic",
+    "zipball_url": "https://api.github.com/repos/tukui-org/ElvUI/zipball/refs/tags/v1.50-classic",
+    "tarball_url": "https://api.github.com/repos/tukui-org/ElvUI/tarball/refs/tags/v1.50-classic",
+    "commit": {
+      "sha": "70bd47832ae29285d0de0b5374dd4adc9a585b66",
+      "url": "https://api.github.com/repos/tukui-org/ElvUI/commits/70bd47832ae29285d0de0b5374dd4adc9a585b66"
+    },
+    "node_id": "MDM6UmVmNDA0ODIzNTAzOnJlZnMvdGFncy92MS41MC1jbGFzc2lj"
+  },
+  {
+    "name": "v1.49-classic",
+    "zipball_url": "https://api.github.com/repos/tukui-org/ElvUI/zipball/refs/tags/v1.49-classic",
+    "tarball_url": "https://api.github.com/repos/tukui-org/ElvUI/tarball/refs/tags/v1.49-classic",
+    "commit": {
+      "sha": "96c545c6ae45ae4dbac03b90de3ad4595102547c",
+      "url": "https://api.github.com/repos/tukui-org/ElvUI/commits/96c545c6ae45ae4dbac03b90de3ad4595102547c"
+    },
+    "node_id": "MDM6UmVmNDA0ODIzNTAzOnJlZnMvdGFncy92MS40OS1jbGFzc2lj"
+  },
+  {
+    "name": "v1.48-classic",
+    "zipball_url": "https://api.github.com/repos/tukui-org/ElvUI/zipball/refs/tags/v1.48-classic",
+    "tarball_url": "https://api.github.com/repos/tukui-org/ElvUI/tarball/refs/tags/v1.48-classic",
+    "commit": {
+      "sha": "645902318366953c28c91d094da4cfadf4f117f8",
+      "url": "https://api.github.com/repos/tukui-org/ElvUI/commits/645902318366953c28c91d094da4cfadf4f117f8"
+    },
+    "node_id": "MDM6UmVmNDA0ODIzNTAzOnJlZnMvdGFncy92MS40OC1jbGFzc2lj"
+  },
+  {
+    "name": "v1.47-classic",
+    "zipball_url": "https://api.github.com/repos/tukui-org/ElvUI/zipball/refs/tags/v1.47-classic",
+    "tarball_url": "https://api.github.com/repos/tukui-org/ElvUI/tarball/refs/tags/v1.47-classic",
+    "commit": {
+      "sha": "9fb540d63c6272bb55b8017d1f68567e2570003d",
+      "url": "https://api.github.com/repos/tukui-org/ElvUI/commits/9fb540d63c6272bb55b8017d1f68567e2570003d"
+    },
+    "node_id": "MDM6UmVmNDA0ODIzNTAzOnJlZnMvdGFncy92MS40Ny1jbGFzc2lj"
+  },
+  {
+    "name": "v1.46-classic",
+    "zipball_url": "https://api.github.com/repos/tukui-org/ElvUI/zipball/refs/tags/v1.46-classic",
+    "tarball_url": "https://api.github.com/repos/tukui-org/ElvUI/tarball/refs/tags/v1.46-classic",
+    "commit": {
+      "sha": "cfd1756302cdb3c12a87fea182b467a53effbdd4",
+      "url": "https://api.github.com/repos/tukui-org/ElvUI/commits/cfd1756302cdb3c12a87fea182b467a53effbdd4"
+    },
+    "node_id": "MDM6UmVmNDA0ODIzNTAzOnJlZnMvdGFncy92MS40Ni1jbGFzc2lj"
+  },
+  {
+    "name": "v1.45-classic",
+    "zipball_url": "https://api.github.com/repos/tukui-org/ElvUI/zipball/refs/tags/v1.45-classic",
+    "tarball_url": "https://api.github.com/repos/tukui-org/ElvUI/tarball/refs/tags/v1.45-classic",
+    "commit": {
+      "sha": "4787d4f6133691a65d15386e685fa3f0c2c7f964",
+      "url": "https://api.github.com/repos/tukui-org/ElvUI/commits/4787d4f6133691a65d15386e685fa3f0c2c7f964"
+    },
+    "node_id": "MDM6UmVmNDA0ODIzNTAzOnJlZnMvdGFncy92MS40NS1jbGFzc2lj"
+  }
+]
