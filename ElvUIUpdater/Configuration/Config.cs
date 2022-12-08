@@ -13,11 +13,15 @@ namespace ElvUIUpdater.Configuration {
         public Config() {
             Registry = new RegistryEditor(@"SOFTWARE\ElvUIUpdater"); //open the registry in this location
 
-            if (bool.TryParse((string) Registry.GetKeyValue(nameof(CheckForUpdateOnLaunch)), out bool checkForUpdateOnLaunch))
+            if(bool.TryParse((string) Registry.GetKeyValue(nameof(CheckForUpdateOnLaunch)), out bool checkForUpdateOnLaunch))
 				_checkForUpdateOnLaunch = checkForUpdateOnLaunch;
+			else
+				_checkForUpdateOnLaunch = true;
 
-            if (bool.TryParse((string) Registry.GetKeyValue(nameof(InstallOnLaunch)), out bool installOnLaunch))
+			if(bool.TryParse((string) Registry.GetKeyValue(nameof(InstallOnLaunch)), out bool installOnLaunch))
 				_installOnLaunch = installOnLaunch;
+			else
+				_installOnLaunch = false;
 
 			if(bool.TryParse((string) Registry.GetKeyValue(nameof(CheckForNewElvUIUpdaterOnLaunch)), out bool checkForNewElvUIUpdaterOnLaunch))
 				_checkForNewElvUIUpdaterOnLaunch = checkForNewElvUIUpdaterOnLaunch;

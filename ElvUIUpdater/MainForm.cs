@@ -13,7 +13,7 @@ using Semver;
 
 namespace ElvUIUpdater {
 	public partial class MainForm : Form {
-		private string applicationVersion = "v1.0.1";
+		private string applicationVersion = "v1.1";
 		private const string userAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.246";
 		private const int estimatedAPICalls = 3;
 		private bool useLiveAPI = true;
@@ -306,6 +306,12 @@ namespace ElvUIUpdater {
 					Move(elvuiFolder, gameLocation + @"\" + Path.GetFileName(elvuiFolder));
 				} catch(Exception e) {
 					AddLogItem("Error: " + e.Message);
+
+					InstallFailedForm installFailedForm = new InstallFailedForm {
+						StartPosition = FormStartPosition.CenterParent
+					};
+					installFailedForm.Show();
+
 					return;
 				}
 
@@ -327,6 +333,11 @@ namespace ElvUIUpdater {
 			GetElvUIVersion();
 
 			await GetRateLimit();
+
+			InstallSuccessForm installSuccessForm = new InstallSuccessForm {
+				StartPosition = FormStartPosition.CenterParent
+			};
+			installSuccessForm.Show();
 		}
 
 		private async Task CheckForApplicationUpdate() {
@@ -351,8 +362,9 @@ namespace ElvUIUpdater {
 					if(releaseVersion.CompareSortOrderTo(currentVersion) == 1) {
 						AddLogItem("Newer ElvUI Updater version found");
 
-						NewVersionForm newVersionForm = new NewVersionForm("v" + currentVersion, "v" + releaseVersion, release.html_url);
-						newVersionForm.StartPosition = FormStartPosition.CenterParent;
+						NewVersionForm newVersionForm = new NewVersionForm("v" + currentVersion, "v" + releaseVersion, release.html_url) {
+							StartPosition = FormStartPosition.CenterParent
+						};
 						newVersionForm.ShowDialog(this);
 					} else {
 						AddLogItem("ElvUI Updater is up to date");
